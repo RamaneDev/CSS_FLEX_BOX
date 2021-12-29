@@ -90,6 +90,13 @@
 
     }
 
+    &__icon-box:hover &__notification {       
+            
+            animation-name: notificaiton-pupop ;
+            animation-duration: .5s; 
+            animation-timing-function: ease-out;      
+    }
+
 
     &__icon {
         height: 2.25rem;
@@ -110,9 +117,11 @@
         right: 1.1rem;
         display: flex;
         align-items: center;
-        justify-content: center;
-
+        justify-content: center;     
+        
     }
+
+
 
     &__user {
         display: flex;
